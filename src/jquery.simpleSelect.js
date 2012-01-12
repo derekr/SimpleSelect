@@ -1,3 +1,8 @@
+/*!
+ * A jQuery plugin that simply masks a select element and allows custom styling. v0.1
+ * @link https://github.com/derekr/SimpleSelect
+ * @author Derek Reynolds <http://whatupderek.com/>
+ */
 (function ($) {
   
   $.fn.simpleSelect = function (options) {
