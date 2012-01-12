@@ -32,7 +32,8 @@
       
       selectEl.css({
         opacity: 0,
-        zIndex: 1
+        zIndex: 1,
+        position: 'absolute'
       });
       
       selectEl.change(function (e) {        

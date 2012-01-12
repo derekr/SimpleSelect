@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	
+	<link rel="stylesheet" href="./src/simple_select.css">
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./src/jquery.simpleSelect.js"></script>
+	
+	<script type="text/javascript">
+	  $(document).ready(function () {
+  	  $('.simple-select').simpleSelect({
+    	  formatWindowContent: function (content) {
+      	  return content.toUpperCase();
+    	  }
+  	  });	
+	  });
+	</script>
+</head>
+<body>
+	<select id="someselect" class="simple-select">
+		<option value="test1" selected>Test</option>
+		<option value="test2">Test 2</option>
+	</select>
+</body>
+</html>
