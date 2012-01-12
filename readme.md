@@ -3,7 +3,7 @@
 I needed an easy way to style the window of a select element while maintaining native functionality.
 This is currently [possible in Chrome](http://stackoverflow.com/questions/1895476/how-to-style-select-dropdown-with-css-only-without-javascript), but I needed a cross browser solution.
 
-This plugin will simple add a window element to display the currently selected item and wrap the 
+This plugin will simply add a window element to display the currently selected item and wrap the 
 window and select element in a container. The select element is absolutely positioned and given 
 an opacity of 0 so it is not visible, but still handles the click event accordingly. Pretty simple!
 
