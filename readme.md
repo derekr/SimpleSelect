@@ -12,15 +12,18 @@ an opacity of 0 so it is not visible, but still handles the click event accordin
 <table>
 	<tr>
 	  <th>wrapperClass</th>
-	  <td>(string) 'select-wrapper'</td> 
+	  <td>string</td>
+	  <td>'select-wrapper'</td> 
 	</tr>
 	<tr>
 	  <th>windowClass</th>
-	  <td>(string) 'select-window'</td>
+	  <td>string</td>
+	  <td>'select-window'</td>
 	</tr>
 	<tr>
 	  <th>formatWindowContent</th>
-	  <td>(callback) A callback for formatting whatever the selected 
+	  <td>callback</td>
+	  <td>A callback for formatting whatever the selected 
 	      value is before it's placed in the select window.</td> 
 	</tr>
 </table>
